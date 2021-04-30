@@ -1,0 +1,313 @@
+html, body {height: 100%; font-family: 'Roboto Slab', serif;}
+a{transition: all 0.5s;}
+
+#supraheader {
+	
+	background-color: #0d5686;
+	color: #fff;
+}
+
+#supraheader-bottom {
+
+	background-color: #444;
+	color: #fff;
+
+}
+
+#first-section {
+	
+	background-image: url(../images/image-principala.jpg);
+}
+
+#newsletter {
+	background-color: #1a82b9;
+	color: #fff;
+
+}
+
+#cine-suntem {
+	background-color: #dff3ff80;
+}
+
+.newsletter-btn {
+	background-color: #1a82b9;
+	color: #fff;
+	border-color: transparent;
+	border:1px solid #fff;
+	margin-left: 20px;
+	margin-top:20px;
+
+}
+
+.newsletter-btn:hover {
+	background-color: #fff;
+	color: #1a82b9;
+	
+
+}
+
+
+.raspuns {
+	color: #888;
+}
+
+.box-contact {
+	box-shadow: 0px 11px 20px 0px #d3d3d3;
+	
+}
+
+.contact-info {
+	color: :#888;
+
+}
+.contact-image {
+	color: #1a82b9;
+	font-size: 70px;
+	
+}
+
+.form-inline {
+	margin-top: 12px;
+}
+
+.pb-20{
+	padding-bottom: 20px;
+}
+
+.pt-20{
+	padding-top: 20px;
+}
+
+.pb-60{
+	padding-bottom: 60px;
+}
+
+.padding-left{
+	padding-left: 50px;
+}
+
+.pr{
+	padding-right: 50px;
+}
+
+.pl{
+	padding-left: 50px;
+}
+
+.pt {
+	padding-top: 40px;
+}
+
+.pb {padding-bottom: 40px;
+}
+
+.pt-80 {
+	padding-top: 80px;
+}
+
+
+.opacity-black{
+	background-color: rgba(0,0,0,0.5);
+
+}
+
+.color-white {
+	color: #fff;
+}
+
+.display-table {
+	display: table;
+}
+.vertical-align{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.icon-top {
+	
+	color: #fff;
+	border: 1px solid #fff;
+	padding: 5px;
+	border-radius: 10px;
+}
+
+.icon-top-right {
+	margin-top: 10px;
+	width: 40px;
+	height: 30px;
+	margin-right: 10px;
+	float : right;
+	border: 1px solid #fff;
+	color: #fff;
+	padding: 5px;
+	border-radius: 10px;
+	margin-top: 0px auto;
+	color: #fff;
+}
+
+.form-top {
+	padding:20px;
+}
+
+.form-top input, .form-top textarea {
+	margin: 10px 0px;
+	border: 2px solid #888;
+}
+
+.btn-form-top {
+	width: 100%;
+	background-color: #1a82b9;
+	color: #fff;
+	border-color: transparent;
+}
+
+.btn-top {
+	
+	background-color: #1a82b9;
+	color: #fff;
+	border-color: transparent;
+	border:1px solid #fff;
+}
+
+.btn-top-2 {
+	
+	background-color: transparent;
+	color: #fff;
+	border-color: transparent;
+	border:1px solid #fff;
+}
+
+.btn:hover, .btn:focus {
+	transition: all 1.0s;
+	background-color: #fff;
+	 color:  #1a82b9;
+	 border: 1px solid #fff;
+
+}
+
+.text-blue {
+	color: #1a82b9;
+}
+
+p {
+	color: #888;
+}
+
+.icon-top-right:hover, .icon-top-right:focus {
+	background-color: #fff;
+}
+
+.icon-box {
+	width: 39px;
+	height: 45px;
+	border: solid 1px #fff;
+	border-top: 0px;
+	border-bottom: 0px;
+	padding: 5px;
+	color: #fff;
+}
+
+.service i{
+	transition: all 1.0s;
+	
+	color: #1a82b9;
+	width: 100px;
+	height: 100px;
+	
+	font-size: 50px;
+	line-height: 96px;
+	
+	border: 2px solid #1a82b9;
+}
+
+.service:hover > i {
+	color: #fff;
+	background-color: #1a82b9;
+	border-radius: 100% !important;
+}
+
+
+.navbar {
+	margin-bottom: 0px;
+}
+
+.navbar-default {
+
+    background-color: #1a82b9;
+    border-color: transparent;
+    color: #fff;
+
+}
+
+.navbar-default .navbar-brand {
+
+    color: #fff;
+
+}
+
+.navbar-default .navbar-nav > li > a {
+
+    color: #fff;
+
+}
+
+.mobile-show-map {
+	display: none;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+
+    color: #3c2a1e;
+    background-color: transparent;
+
+}
+
+a:focus, .navbar-default .navbar-nav > li > a:hover {
+	transition: all 0.5s;
+    color: #3c2a1e;
+    background-color: transparent;
+
+}
+
+.meniu-produs {
+	border-bottom-style: solid;
+	border-bottom-width: 5px;
+	border-color: #6f4e38;
+	padding-bottom: 10px;
+}
+
+.meniu-produs-pret {
+	border-bottom-style: solid;
+	border-bottom-width: 5px;
+	border-color: transparent;
+	padding-bottom: 10px;
+}
+
+.max-height{
+	max-width: 50%;
+}
+
+
+
+
+@media (max-width: 768px) {
+    .text-left, .text-right {
+    	text-align: center;
+    }
+    .icon-top-right {
+    	display: none;
+    }
+
+    .mobile-hide{
+    	display: none;
+    }
+	
+	.mobile-show-map{
+		display: block !important;
+		padding-bottom: 10px;
+	}
+	
+	#first-section{
+		background-image: url(../images/mobilebackground.jpg);
+
+}
